@@ -1,0 +1,23 @@
+
+npm init
+npm install
+npm install prompt --save
+npm install browserify --save-dev
+npm install browserify -g
+gulp jsBrowserify
+npm install gulp --save-dev
+npm install gulp -g
+npm install vinyl-source-stream --save-dev
+npm install gulp-concat --save-dev
+npm install gulp-uglify --save-dev
+npm install gulp-util --save-dev
+npm install -g eslint
+gulp build / gulp build --production
+npm install jshint --save-dev
+npm install gulp-jshint --save-dev
+npm install bower -g
+bower init
+bower install jquery --save
+bower install
+npm install typescript -g
+apm install atom-typescript
