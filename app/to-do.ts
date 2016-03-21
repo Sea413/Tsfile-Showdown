@@ -1,7 +1,9 @@
+console.log("TS testing");
 interface IPerson {
   name: string;
   email: string;
 }
+console.log("Iperson testing");
 
 interface ITask {
   description: string;
@@ -68,3 +70,10 @@ tomorrow.setDate(today.getDate() + 1);
 var nextDay = new Date();
 nextDay.setDate(today.getDate() + 2);
 console.log(tasks);
+  console.log("here am i");
+
+  $(document).ready(function() {
+    var dangerZone = taskPriorities;
+    console.log("J Query testing element");
+    $("#tasklist").text(dangerZone);
+  });

@@ -1,3 +1,5 @@
+console.log("Further to.js testing");
+
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
@@ -69,3 +71,4 @@ tomorrow.setDate(today.getDate() + 1);
 var nextDay = new Date();
 nextDay.setDate(today.getDate() + 2);
 console.log(tasks);
+console.log("to-do.js testing");

@@ -2,7 +2,10 @@
 /// <reference path="to-do-people.ts" />
 /// <reference path="to-do-listing-functions.ts" />
 
+console.log("testing");
+
 var people = ToDoList.people;
+// var priority = ToDoList.priority;
 
 var tasks = [];
 tasks.push(new ToDoList.HomeTask("Do the dishes.", "High"));
@@ -26,6 +29,27 @@ console.log(tasks);
 
 var thorTasks = ToDoList.describeTasksForPerson(people.thor, tasks);
 console.log("here are thor's tasks: ")
-for(var task of thorTasks){
-  console.log(task);
+for(var testing5 of thorTasks){
+  console.log(testing5);
 }
+console.log("testing");
+
+var taskCategories = ToDoList.listAllTasksForType("WorkTask", tasks);
+console.log(tasks);
+for(var task1 of taskCategories) {
+console.log(task1);
+}
+
+var taskPriorities = ToDoList.listAllTasksForPriority("High", tasks);
+console.log(tasks);
+console.log("super Test");
+for(var task1 of taskPriorities) {
+}
+
+
+// $(document).ready(function() {
+//   event.preventdefault();
+//   var dangerZone = taskPriorities;
+//   console.log("test");
+//   $("#tasklist").html(dangerZone);
+// });
